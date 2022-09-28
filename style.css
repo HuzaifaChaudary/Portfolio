@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+    scroll-behavior:  smooth;
+}
+
+.frontPage{
+    height: 690px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-right: 50px;
+    font-size: 18px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px 10px;
+}
+
+nav li :hover {
+    color: rgb(177, 28, 28);
+    transition: all 0.2s ease 0s;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav_links li{
+    display: inline-flex;
+}
+
+header a button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    color:white;
+    background-color: green;
+    border-radius: 50px;
+}
+
+header a button:hover {
+    background-color:darkgreen;
+    transition: all 0.5s ease 0s;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+Self ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+Self ul li {
+list-style-type: none;
+display: inline-flex;
+padding: 0px 18px;
+}
+
+Self ul :hover {
+    color: blue;
+    transition: all 0.2s ease 0s;
+}
+
+.selfNames{
+    margin-right: 220px;
+}
+
+arrow{
+    position: absolute;
+    top: 620px;
+    animation-name: arrowD;
+    animation-direction: alternate;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+
+.Introduction{
+    text-align: center;
+}
+
+.Introduction buttons {
+    text-align: center;
+}
+
+.Intro-details{
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 550px;
+}
+
+.Intro-details h1{
+    margin-bottom: -190px;
+}
+
+.about-me{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.about-me h5 {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.profile{
+    height: 400px;
+}
+
+buttons{
+    text-align: center;
+}
+
+buttons li{
+    display:inline-flex;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+ }
+
+ buttons ul li button {
+    text-align: center;
+    padding: 10px 65px;
+    border-radius:50px;
+    font-size: small;
+ }
+
+.myWork {
+    border: 2px solid  rgb(75, 72, 72) ;
+    color: white;
+}
+
+.contactMe{
+    border: 2px solid  rgb(75, 72, 72) ;
+}
+
+button .contactMe a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ @keyframes arrowD {
+    /* from {transform:translateY(-10px);}
+    to {transform:translateY(10px);}  */
+    0% {
+        top: 600px;
+    }
+    50% {
+        top: 620px;
+    }
+ }
+
+ .Work{
+    height:520px;
+    text-align: center;
+ }
+
+.work-details{
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.projects-details{
+    width:400px;
+}
+
+.projects-container{
+    border: 2px solid white;
+    background-color: whitesmoke;
+    transform: scale(1,1);
+}
+
+.projects-container:hover{
+    transform: scale(1.1,1.1);
+    transition: transform 0.2s ease-in;
+}
+
+.Resume {
+    height: 1200px;
+    text-align: center;
+}
+
+.Resume-marg{
+    padding-top: 50px;
+}
+
+.Resume-Center{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.Resume-width{
+    width: 500px;
+    margin-left: 420px;
+}
+
+.resume-bottom{
+    padding-bottom: 10px;
+}
+
+.Resume-btn{
+    margin-top: 10px;
+    padding: 10px 65px;
+    border-radius: 50px;
+    background-color:black ;
+    color: white;
+}
+
+.Footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+    height: 220px;
+    text-align: center;
+}
+
+.Footer-contact {
+    padding-top: 10px;
+}
+
+.Footer-contact input{
+    margin-top: 30px;
+    padding: 5px 50px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+}
+
+.Footer-contact textarea {
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+buttons button a {
+    color:black;
+}
